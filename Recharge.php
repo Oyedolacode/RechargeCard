@@ -4,7 +4,8 @@
 echo '<h1>Hurray!! Time to top Up</h1>';
 
 //Use a for loop to iterate our code
-for ($index=0;$index<200;$index++){
+for ($index=0; $index<200; $index++){
+    
     //Applying the Random function
     
     $TopUp = rand(10000000000000,90000000000000);
@@ -18,3 +19,14 @@ for ($index=0;$index<200;$index++){
 
 
 ?>
+<style>
+    body{
+        background-color: mediumaquamarine;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        color: green;
+    }
+</style>
